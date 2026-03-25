@@ -56,3 +56,29 @@ while not at_goal():
         move()
     else:
         turn_left()
+# 🎯 Day 7 – Hangman Game (Python)
+
+## 📌 Project Overview
+Today’s project is a **Hangman Game** built using Python.  
+The game randomly selects a word, and the player must guess it letter by letter before running out of lives.
+
+---
+
+## 🚀 Features
+- Random word selection using `random`
+- Tracks player lives (6 attempts)
+- Displays word progress with `_`
+- Prevents repeated guesses
+- Shows win/lose messages
+- Visual hangman stages for each wrong guess
+
+---
+
+## 🧠 Concepts Practiced
+- Python loops (`while`, `for`)
+- Conditional statements (`if-else`)
+- Lists and string manipulation
+- Importing modules/files
+- Game logic building
+
+---
