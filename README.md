@@ -27,3 +27,32 @@ Built a game using logic and randomization
 Used lists for storing characters
 Applied random.choice() & random.shuffle()
 Generated strong and secure passwords
+# 🚀 Day 6 – Maze Solver (Reeborg World)
+
+## 📌 Problem
+Build a program to guide a robot through a maze and reach the goal.
+
+## 🧠 Approach
+I used the **Right Wall Following Algorithm**:
+- If the right path is clear → turn right and move
+- Else if the front is clear → move forward
+- Else → turn left
+
+This method ensures the robot eventually finds the exit.
+
+## 💻 Code
+
+```python
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
