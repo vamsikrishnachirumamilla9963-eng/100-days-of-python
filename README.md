@@ -82,3 +82,36 @@ The game randomly selects a word, and the player must guess it letter by letter 
 - Game logic building
 
 ---
+🔐 Day 8 — Caesar Cipher
+📌 Project Description
+
+Today I built a Caesar Cipher program that can encrypt and decrypt messages by shifting letters in the alphabet.
+
+🚀 Features
+Encode (encryption)
+Decode (decryption)
+Handles spaces, numbers, and symbols
+Supports large shift values using modulo (%)
+🧠 Concepts Used
+Functions
+Loops
+Conditionals
+Lists
+String manipulation
+Modulo operator (%)
+💡 How It Works
+Each letter is shifted by a given number
+Encoding → shift forward
+Decoding → shift backward
+Wrap-around handled using % 26
+🔍 Example
+Input: hello
+Shift: 3
+Output: khoor
+📂 File
+caesar_cipher.py
+🎯 What I Learned
+Writing reusable functions
+Handling edge cases (symbols, spaces)
+Using modulo for circular logic
+Building interactive programs
