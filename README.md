@@ -147,3 +147,37 @@ What is your bid?: $150
 Are there any other bidders? no
 
 The winner is John with a bid of $150
+🧮 Day 10 – Calculator Program
+📌 Project Overview
+
+This project is a Calculator Program built using Python.
+It performs basic arithmetic operations and allows users to continue calculations using previous results.
+
+💡 What I Learned
+Writing reusable functions
+Using dictionaries to map operations to functions
+Managing program flow with loops
+Handling user input in interactive programs
+⚙️ How It Works
+User enters the first number
+Program displays available operations: +, -, *, /
+User selects an operation
+User enters the next number
+Program calculates and displays the result
+User can continue with the result or start a new calculation
+🧠 Key Concepts Used
+Functions
+Dictionaries
+Loops (while)
+Conditional statements
+User input handling
+▶️ Example Output
+What is the first number?: 10
++
+-
+*
+/
+Pick an operation: +
+What is the next number?: 5
+10.0 + 5.0 = 15.0
+Type 'y' to continue calculating with 15.0, or type 'n' to start a new calculatio
