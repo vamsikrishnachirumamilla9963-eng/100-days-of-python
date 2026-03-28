@@ -115,3 +115,35 @@ Writing reusable functions
 Handling edge cases (symbols, spaces)
 Using modulo for circular logic
 Building interactive programs
+🏷️ Day 9 – Secret Auction Program
+📌 Project Overview
+
+This project is a Secret Auction Program built using Python.
+It allows multiple users to place bids, and the program determines the highest bidder without revealing other bids.
+
+💡 What I Learned
+Using dictionaries to store key-value data (name → bid)
+Writing functions to organize and reuse code
+Iterating through data using loops
+Applying conditional logic to find the highest value
+⚙️ How It Works
+Users enter their name and bid amount
+The program stores each bid in a dictionary
+It asks if there are more bidders
+Once bidding ends, it calculates the highest bid
+Displays the winner and their bid
+🧠 Key Concepts Used
+Python Dictionaries
+Functions
+Loops (for, while)
+Conditional Statements (if-elif-else)
+▶️ Example Output
+What is your name?: Vamsi
+What is your bid?: $100
+Are there any other bidders? yes
+
+What is your name?: John
+What is your bid?: $150
+Are there any other bidders? no
+
+The winner is John with a bid of $150
