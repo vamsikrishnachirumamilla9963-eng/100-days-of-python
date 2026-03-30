@@ -181,3 +181,40 @@ Pick an operation: +
 What is the next number?: 5
 10.0 + 5.0 = 15.0
 Type 'y' to continue calculating with 15.0, or type 'n' to start a new calculatio
+🃏 Day 11 – Blackjack Game
+📌 Project Overview
+
+This project is a Blackjack game built using Python.
+The player competes against the computer, and the winner is determined based on standard Blackjack rules.
+
+💡 What I Learned
+Writing reusable functions
+Managing game flow using loops
+Applying conditional logic
+Working with lists and random module
+Handling special cases like Blackjack (21) and Ace values
+⚙️ How It Works
+Both the user and computer are dealt two cards
+The user can choose to:
+Take another card (hit)
+Stop (stand)
+The computer draws cards until its score is at least 17
+Scores are compared
+The winner is displayed
+🧠 Key Concepts Used
+Functions
+Lists
+Loops (while)
+Conditional statements
+Random module
+▶️ Example Output
+Do you want to play a game of Blackjack? Type 'y' or 'n': y
+
+Your cards: [10, 7], current score: 17
+Computer's first card: 9
+
+Type 'y' to get another card, type 'n' to pass: n
+
+Your final hand: [10, 7], final score: 17
+Computer's final hand: [9, 8], final score: 17
+Draw 🙃
