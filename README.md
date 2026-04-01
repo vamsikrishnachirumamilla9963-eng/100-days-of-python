@@ -218,3 +218,52 @@ Type 'y' to get another card, type 'n' to pass: n
 Your final hand: [10, 7], final score: 17
 Computer's final hand: [9, 8], final score: 17
 Draw 🙃
+# 🎯 Day 12 – Number Guessing Game
+
+## 📌 Project Overview
+This project is a Number Guessing Game built using Python.  
+The player tries to guess a randomly chosen number between 1 and 100 within a limited number of attempts.
+
+---
+
+## 💡 What I Learned
+- Writing reusable functions
+- Using random number generation
+- Managing attempts with variables
+- Applying loops and conditional logic
+- Building interactive command-line games
+
+---
+
+## ⚙️ How It Works
+1. The program selects a random number between 1 and 100
+2. The user chooses a difficulty:
+   - Easy → 10 attempts
+   - Hard → 5 attempts
+3. The user enters guesses
+4. The program gives hints:
+   - Too high
+   - Too low
+5. The game ends when:
+   - The user guesses correctly
+   - Attempts run out
+
+---
+
+## 🧠 Key Concepts Used
+- Functions
+- Loops (`while`)
+- Conditional statements
+- Random module
+
+---
+
+## ▶️ Example Output
+```python
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+Choose a difficulty. Type 'easy' or 'hard': easy
+You have 10 attempts remaining to guess the number.
+Make a guess: 50
+Too low.
+Guess again.
