@@ -267,3 +267,27 @@ You have 10 attempts remaining to guess the number.
 Make a guess: 50
 Too low.
 Guess again.
+# 🐞 Day 13 – Debugging
+
+## 📌 Overview
+Today I focused on learning debugging techniques instead of building a project.
+
+---
+
+## 💡 What I Learned
+- How to identify and describe problems in code  
+- Reproducing bugs step by step  
+- Tracing code execution line by line  
+- Using print statements to debug  
+- Introduction to debugging tools  
+
+---
+
+## 🧠 Key Takeaway
+Debugging is an essential skill in programming.  
+It helps in understanding code deeply and improving problem-solving ability.
+
+---
+
+## 🚀 Summary
+Even without writing new code, today improved my logical thinking and ability to fix errors efficiently.
