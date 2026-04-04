@@ -291,3 +291,36 @@ It helps in understanding code deeply and improving problem-solving ability.
 
 ## 🚀 Summary
 Even without writing new code, today improved my logical thinking and ability to fix errors efficiently.
+# 🎮 Day 14 – Higher Lower Game
+
+## 📌 Overview
+This project is a Higher Lower game where the user guesses which account has more followers.
+
+---
+
+## 💡 What I Learned
+- Using dictionaries and lists
+- Writing reusable functions
+- Managing game loops
+- Implementing scoring systems
+- Handling user input and validation
+
+---
+
+## ⚙️ How It Works
+1. Two accounts are displayed
+2. User guesses which has more followers
+3. If correct → score increases
+4. If wrong → game ends
+
+---
+
+## 🧠 Key Concepts
+- Functions
+- Loops
+- Conditionals
+- Random module
+
+---
+
+
