@@ -323,4 +323,44 @@ This project is a Higher Lower game where the user guesses which account has mor
 
 ---
 
+# ☕ Coffee Machine Project (Day 15)
 
+This project is a simple Coffee Machine simulation built using Python.  
+It allows users to select drinks, insert coins, and receive coffee based on available resources.
+
+---
+
+## 🚀 Features
+- Select drinks: Espresso, Latte, Cappuccino  
+- Checks if enough ingredients are available  
+- Accepts coin input from user  
+- Validates payment and returns change  
+- Tracks total profit  
+- Displays a report of remaining resources  
+
+---
+
+## 🧠 Concepts Used
+- Functions (modular programming)  
+- Dictionaries for structured data  
+- Conditional statements (if/elif/else)  
+- While loops  
+- User input handling  
+
+---
+
+## ⚙️ How It Works
+1. User selects a drink  
+2. Machine checks available resources  
+3. User inserts coins  
+4. Machine verifies payment  
+5. Coffee is prepared  
+6. Resources and profit are updated  
+
+---
+
+## ▶️ How to Run
+Make sure Python is installed, then run:
+
+```bash
+python coffee_machine.py
