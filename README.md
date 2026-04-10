@@ -364,3 +364,24 @@ Make sure Python is installed, then run:
 
 ```bash
 python coffee_machine.py
+# ☕ Day 16: OOP Coffee Machine
+
+This project is an Object-Oriented Programming (OOP) version of the Coffee Machine built in Day 15 of the **100 Days of Code: The Complete Python Pro Bootcamp**.
+
+## 🚀 Project Overview
+The coffee machine simulation allows users to order drinks, process payments, and manage resources. In this version, the application is structured using classes to improve modularity, readability, and scalability.
+
+## 🧠 OOP Concepts Applied
+- **Classes and Objects** – Structured the program into reusable components.
+- **Encapsulation** – Managed machine resources within class methods.
+- **Abstraction** – Simplified complex operations like payment and drink preparation.
+- **Modularity** – Separated responsibilities across different classes.
+
+## 🏗️ Project Structure
+The system is divided into the following classes:
+
+- **MenuItem** – Represents a drink with its ingredients and cost.
+- **Menu** – Manages available drinks and retrieves menu items.
+- **CoffeeMaker** – Handles resource management and drink preparation.
+- **MoneyMachine** – Processes coins, validates transactions, and tracks profit.
+- **main.py** – Controls the program flow and user interaction.
