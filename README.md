@@ -385,3 +385,24 @@ The system is divided into the following classes:
 - **CoffeeMaker** – Handles resource management and drink preparation.
 - **MoneyMachine** – Processes coins, validates transactions, and tracks profit.
 - **main.py** – Controls the program flow and user interaction.
+# 🧠 Day 17 – True/False Quiz Game (OOP in Python)
+
+This project is part of my **#100DaysOfCode** challenge.  
+On Day 17, I built an interactive **True/False Quiz Game** using **Object-Oriented Programming (OOP)** in Python.
+
+## 🚀 Features
+- ✅ Interactive command-line quiz
+- ✅ True/False question format
+- ✅ Real-time feedback after each question
+- ✅ Score tracking throughout the quiz
+- ✅ Final score display at the end
+- ✅ Clean and modular OOP-based design
+
+## 🧠 Concepts Practiced
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Method creation and interaction
+- Loops and Conditional Statements
+- User Input Handling
+- Working with Lists and Dictionaries
+
