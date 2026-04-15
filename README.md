@@ -405,4 +405,24 @@ On Day 17, I built an interactive **True/False Quiz Game** using **Object-Orient
 - Loops and Conditional Statements
 - User Input Handling
 - Working with Lists and Dictionaries
+# 🎨 Day 18 - Hirst Dot Painting
 
+## 📌 Overview
+This project recreates a Damien Hirst-inspired dot painting using Python's Turtle graphics. The program extracts dominant colors from an image and uses them to generate a 10×10 grid of colorful dots.
+
+## 🛠️ Technologies Used
+- Python
+- Turtle Graphics
+- Colorgram
+- Random Module
+
+## ✨ Features
+- Extracts 30 dominant colors from an image.
+- Draws a 10×10 grid of evenly spaced colored dots.
+- Uses RGB color mode for accurate color representation.
+- Fast rendering using `speed("fastest")`.
+
+## ▶️ How to Run
+1. Install the required library:
+   ```bash
+   pip install colorgram.py
