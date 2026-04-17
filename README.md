@@ -426,3 +426,38 @@ This project recreates a Damien Hirst-inspired dot painting using Python's Turtl
 1. Install the required library:
    ```bash
    pip install colorgram.py
+# Day 19 - Turtle Race Game 🐢
+
+This project is part of my **#100DaysOfCode** journey.
+
+## 📌 Project Overview
+Today I built a simple and interactive **Turtle Race Game** using Python's `turtle` module.
+
+The user places a bet on which turtle color will win the race. Once the race starts, all turtles move forward randomly until one reaches the finish line.
+
+## 🚀 Features
+- 6 turtles with different colors
+- User betting system before race starts
+- Random movement for each turtle
+- Automatic winner detection
+- Result displayed in console
+
+## 🧠 Concepts Practiced
+- Loops (for iteration)
+- Lists (to store turtles)
+- Conditional statements
+- Random module
+- Turtle graphics
+- User input handling
+
+## 🛠️ Technologies Used
+- Python
+- Turtle module
+- Random module
+
+## ▶️ How to Run
+1. Install Python (if not already installed)
+2. Copy the code into a file named `main.py`
+3. Run the program:
+   ```bash
+   python main.py
