@@ -461,3 +461,29 @@ The user places a bet on which turtle color will win the race. Once the race sta
 3. Run the program:
    ```bash
    python main.py
+# 🐍 Snake Game - Day 20
+
+This project is part of my #100DaysOfCode challenge.
+
+## 📌 Overview
+Today, I built the basic structure of the Snake Game using Python Turtle graphics.
+
+## 🚀 Features
+- Snake created using multiple segments
+- Smooth movement animation
+- Keyboard controls (Up, Down, Left, Right)
+- Prevents reverse movement
+
+## 🧠 Concepts Learned
+- Object-Oriented Programming (OOP)
+- Working with lists of objects
+- Game loop logic
+- Screen updates using tracer()
+
+## 🛠️ Technologies Used
+- Python
+- Turtle Module
+
+## ▶️ How to Run
+1. Make sure Python is installed
+2. Run the main file:
