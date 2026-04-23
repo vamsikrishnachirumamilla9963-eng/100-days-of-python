@@ -487,3 +487,48 @@ Today, I built the basic structure of the Snake Game using Python Turtle graphic
 ## ▶️ How to Run
 1. Make sure Python is installed
 2. Run the main file:
+# Pong Game – Day 22
+
+This is a 2-player Pong Game built using Python Turtle Graphics as part of my #100DaysOfCode challenge.
+
+## Features
+
+- Two-player gameplay
+- Paddle controls using keyboard
+- Ball movement across screen
+- Collision detection with paddles and walls
+- Score tracking system
+- Ball resets after each point
+
+## Controls
+
+Left Paddle:
+- W → Move up
+- S → Move down
+
+Right Paddle:
+- Up Arrow → Move up
+- Down Arrow → Move down
+
+## Project Structure
+
+- main.py – Main game loop
+- paddle.py – Paddle movement logic
+- ball.py – Ball movement and collision
+- scoreboard.py – Score tracking
+
+## How to Run
+
+1. Install Python
+2. Place all files in one folder
+3. Run:
+
+python main.py
+
+## Learning Outcome
+
+This project helped me understand:
+- Object-Oriented Programming (OOP)
+- Game loops and animation
+- Collision detection
+- Handling user input
