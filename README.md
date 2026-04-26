@@ -532,3 +532,44 @@ This project helped me understand:
 - Game loops and animation
 - Collision detection
 - Handling user input
+# 🐢 Turtle Crossing Game (Day 23)
+
+An arcade-style game built using Python’s Turtle graphics module, inspired by the classic **Frogger** concept.  
+The goal is simple: help the turtle cross the road safely while avoiding incoming cars.
+
+---
+
+## 🎮 Gameplay
+
+- Control the turtle using the **Up Arrow key**
+- Avoid randomly generated cars 🚗
+- Reach the top to advance to the next level
+- Each level increases the speed of the cars
+- The game ends when the turtle collides with a car
+
+---
+
+## 🚀 Features
+
+- 🐢 Smooth player movement with keyboard controls  
+- 🚗 Random car generation with different colors  
+- ⚡ Increasing difficulty (cars speed up every level)  
+- 💥 Collision detection system  
+- 📊 Live scoreboard displaying current level  
+
+---
+
+## 🧠 Concepts Applied
+
+This project focuses on applying core Python and programming principles:
+
+- Object-Oriented Programming (OOP)
+- Class design and modular structure
+- Game loop implementation
+- Event handling (keyboard input)
+- Collision detection logic
+- Dynamic difficulty scaling
+
+---
+
+
