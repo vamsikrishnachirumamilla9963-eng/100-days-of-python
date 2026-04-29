@@ -571,5 +571,77 @@ This project focuses on applying core Python and programming principles:
 - Dynamic difficulty scaling
 
 ---
+# 📌 Day 24 – Mail Merge Automation using Python
 
+🚀 Part of my #100DaysOfCode journey  
+
+This project demonstrates how Python can automate repetitive tasks by generating personalized letters from a template.
+
+---
+
+## 🚀 Overview
+
+Instead of manually writing multiple letters, this program:
+- Reads names from a file  
+- Uses a template letter  
+- Replaces placeholders dynamically  
+- Generates personalized letters automatically  
+
+---
+
+## 🧠 Key Concepts
+
+- File handling (`open`, `read`, `write`)  
+- String manipulation (`replace`, `strip`)  
+- Looping through data  
+- Basic automation  
+
+---
+
+## 📂 Project Structure
+
+
+Input/
+├── Names/
+│ └── invited_names.txt
+├── Letters/
+│ └── starting_letter.txt
+
+Output/
+└── ReadyToSend/
+└── letter_for_<name>.txt
+
+
+---
+
+## ⚙️ How It Works
+
+1. Read names from file  
+2. Load template letter  
+3. Replace `[name]` with actual name  
+4. Generate new letter for each person  
+
+---
+
+## 💻 Code
+
+```python
+PLACEHOLDER = "[name]"
+
+with open("./Input/Names/invited_names.txt") as names_file:
+    names = names_file.readlines()
+
+with open("./Input/Letters/starting_letter.txt") as letter_file:
+    letter_contents = letter_file.read()
+
+    for name in names:
+        stripped_name = name.strip()
+        new_letter = letter_contents.replace(PLACEHOLDER, stripped_name)
+
+        with open(f"./Output/ReadyToSend/letter_for_{stripped_name}.txt", mode="w") as completed_letter:
+            completed_letter.write(new_letter)
+📌 Output Example
+Dear Vamsi,
+
+You are invited to my birthday party...
 
