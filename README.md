@@ -644,4 +644,48 @@ with open("./Input/Letters/starting_letter.txt") as letter_file:
 Dear Vamsi,
 
 You are invited to my birthday party...
+# Day 25 - U.S. States Game
 
+This project is a Python-based U.S. States guessing game built using Turtle graphics and Pandas.
+
+## Project Overview
+
+The game displays a blank map of the United States and asks the user to guess state names. When a correct state is entered, the state name appears in the correct location on the map.
+
+If the user types `Exit`, the program creates a CSV file containing the states that were not guessed.
+
+## Features
+
+- Interactive guessing game
+- Uses Turtle graphics for map display
+- Reads state data from a CSV file
+- Tracks correct guesses
+- Creates a `states_to_learn.csv` file for missed states
+
+## Technologies Used
+
+- Python
+- Turtle
+- Pandas
+- CSV data handling
+
+## Files Used
+
+- `us_states_game.py`
+- `50_states.csv`
+- `blank_states_img.gif`
+
+## What I Learned
+
+- How to read CSV files using Pandas
+- How to filter data from a DataFrame
+- How to use coordinates from a dataset
+- How to place text on a Turtle screen
+- How to create a new CSV file from missing data
+
+## How to Run
+
+1. Install pandas:
+
+```bash
+pip install pandas
