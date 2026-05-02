@@ -689,3 +689,37 @@ If the user types `Exit`, the program creates a CSV file containing the states t
 
 ```bash
 pip install pandas
+# Day 26 – NATO Phonetic Alphabet Converter
+
+## 📌 Overview
+This Python project converts a user-input word into its NATO phonetic alphabet equivalent using a CSV dataset.
+
+## 🚀 Features
+- Reads phonetic alphabet data from CSV
+- Uses dictionary comprehension for mapping
+- Converts input word into phonetic representation
+- Handles invalid inputs using exception handling
+
+## 🛠️ Tech Stack
+- Python
+- pandas
+
+## 📂 Example
+Input:
+HELLO
+
+Output:
+['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
+
+## 💡 Key Learnings
+- Dictionary comprehension
+- List comprehension
+- CSV handling with pandas
+- Error handling using try/except
+
+## 📁 Files
+- day26_nato_phonetic.py
+- nato_phonetic_alphabet.csv
+
+## 📈 Outcome
+This project strengthened my understanding of data transformation and Python fundamentals, which are essential for Data Science and AI roles.
