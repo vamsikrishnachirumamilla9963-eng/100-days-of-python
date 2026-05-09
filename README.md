@@ -723,3 +723,34 @@ Output:
 
 ## 📈 Outcome
 This project strengthened my understanding of data transformation and Python fundamentals, which are essential for Data Science and AI roles.
+# Day 29 - Pomodoro Timer App 🍅⏱️
+
+## Overview
+This project is a Pomodoro Timer built using Python and Tkinter.
+
+The app helps users manage focused work sessions and breaks using the Pomodoro technique.
+
+## Features
+- Start Pomodoro timer
+- Work session countdown
+- Short break and long break cycles
+- Reset timer functionality
+- Visual check marks for completed work sessions
+- Tkinter GUI with tomato image
+
+## Technologies Used
+- Python
+- Tkinter
+- Math module
+
+## What I Learned
+- How to build GUI applications using Tkinter
+- How to use `window.after()` for countdown timers
+- How to update canvas text dynamically
+- How to manage repeated timer sessions
+- How to reset UI elements and variables
+
+## File Structure
+```text
+day29_pomodoro_timer.py
+tomato.png
