@@ -754,3 +754,36 @@ The app helps users manage focused work sessions and breaks using the Pomodoro t
 ```text
 day29_pomodoro_timer.py
 tomato.png
+# Day 29 - Password Manager App 🔐
+
+## Overview
+This project is a Password Manager desktop application built using Python and Tkinter.
+
+The app allows users to generate secure passwords and save website login credentials into a local file.
+
+## Features
+- Generate strong random passwords
+- Copy generated passwords to clipboard
+- Save website, email, and password details
+- Popup confirmation before saving
+- Simple and clean Tkinter GUI
+
+## Technologies Used
+- Python
+- Tkinter
+- Pyperclip
+- Random module
+
+## What I Learned
+- Building desktop GUI applications using Tkinter
+- Handling user inputs with Entry widgets
+- Using message boxes for alerts and confirmations
+- Working with file handling in Python
+- Generating secure random passwords
+- Copying text to clipboard using pyperclip
+
+## File Structure
+```text
+day29_password_manager.py
+logo.png
+data.txt
