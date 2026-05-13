@@ -787,3 +787,39 @@ The app allows users to generate secure passwords and save website login credent
 day29_password_manager.py
 logo.png
 data.txt
+# Day 30 - Password Manager with JSON 🔐
+
+## Overview
+This project is an upgraded Password Manager App built using Python and Tkinter.
+
+In this version, I improved the Day 29 project by replacing text file storage with JSON data storage and adding a search feature to find saved login details.
+
+## Features
+- Generate strong random passwords
+- Copy generated passwords to clipboard
+- Save website login details in a JSON file
+- Search saved credentials by website name
+- Handle missing data files using exception handling
+- Display saved login details using popup message boxes
+- Clean Tkinter-based user interface
+
+## Technologies Used
+- Python
+- Tkinter
+- JSON
+- Pyperclip
+- Random module
+
+## What I Learned
+- How to store structured data using JSON
+- How to read and update existing JSON files
+- How to use try-except for error handling
+- How to search stored data using dictionary keys
+- How to improve an existing project by adding new features
+- How to build practical desktop applications with Python
+
+## File Structure
+```text
+day30_password_manager_json.py
+logo.png
+data.json
