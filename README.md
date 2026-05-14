@@ -823,3 +823,43 @@ In this version, I improved the Day 29 project by replacing text file storage wi
 day30_password_manager_json.py
 logo.png
 data.json
+# Day 31 - Flash Card App 📚
+
+## Overview
+This project is a Flash Card Learning App built using Python and Tkinter.
+
+The app helps users learn French vocabulary by displaying flashcards that automatically flip to reveal English translations after a few seconds.
+
+## Features
+- Random French word generation
+- Automatic card flip after 3 seconds
+- Track learned words
+- Save remaining words into a CSV file
+- Interactive GUI using Tkinter
+- CSV data handling with Pandas
+
+## Technologies Used
+- Python
+- Tkinter
+- Pandas
+- Random module
+
+## What I Learned
+- Building interactive desktop applications
+- Reading and writing CSV files using Pandas
+- Using exception handling with try-except
+- Working with Tkinter Canvas and images
+- Managing timers with `window.after()`
+- Creating personalized learning systems
+
+## File Structure
+```text
+day31_flash_card_app.py
+data/
+    french_words.csv
+    words_to_learn.csv
+images/
+    card_front.png
+    card_back.png
+    right.png
+    wrong.png
