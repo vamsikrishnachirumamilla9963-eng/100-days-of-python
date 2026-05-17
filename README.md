@@ -863,3 +863,83 @@ images/
     card_back.png
     right.png
     wrong.png
+# Day 32 - Automated Birthday Email Sender 🎉📧
+
+## Overview
+
+Today I built an Automated Birthday Email Sender using Python.
+
+This project automatically checks for birthdays from a CSV file, selects a random birthday template, personalizes the message with the recipient’s name, and sends the email automatically using Gmail SMTP.
+
+It’s a simple but practical automation project that demonstrates how Python can handle real-world tasks efficiently.
+
+---
+
+## Features
+
+✅ Reads birthday data from a CSV file
+✅ Checks today’s date automatically
+✅ Uses random birthday templates
+✅ Personalizes messages dynamically
+✅ Sends emails automatically using SMTP
+✅ Uses Gmail App Password authentication
+
+---
+
+## Technologies Used
+
+* Python
+* pandas
+* datetime
+* random
+* smtplib
+
+---
+
+## Project Structure
+
+```bash
+├── birthdays.csv
+├── main.py
+├── letter_templates
+│   ├── letter_1.txt
+│   ├── letter_2.txt
+│   └── letter_3.txt
+```
+
+---
+
+## How It Works
+
+1. Reads birthday data from the CSV file
+2. Checks whether today matches any birthday
+3. Selects a random birthday letter template
+4. Replaces the placeholder with the person’s name
+5. Sends the email automatically through Gmail SMTP
+
+---
+
+## What I Learned
+
+* Working with dates in Python
+* Reading CSV files using pandas
+* Dictionary comprehension
+* Email automation using smtplib
+* Using Gmail SMTP securely with App Passwords
+* Building practical Python automation projects
+
+---
+
+## Future Improvements
+
+* Add HTML email templates
+* Schedule emails automatically
+* Add attachment support
+* Create a GUI version
+* Store birthdays in a database
+
+---
+
+## #100DaysOfCode
+
+Day 32 completed successfully 🚀
