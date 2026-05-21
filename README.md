@@ -943,3 +943,32 @@ It’s a simple but practical automation project that demonstrates how Python ca
 ## #100DaysOfCode
 
 Day 32 completed successfully 🚀
+# ISS Overhead Notifier 🚀
+
+A Python automation project that tracks the International Space Station (ISS) in real time and sends an email notification when the ISS is above your location during nighttime.
+
+## Features
+- Tracks ISS live location using API
+- Checks if it is currently night
+- Sends automatic email notifications
+- Runs continuously every 60 seconds
+
+## Technologies Used
+- Python
+- requests
+- smtplib
+- datetime
+- time
+
+## How It Works
+1. Fetches ISS current coordinates using the Open Notify API
+2. Compares ISS position with your location
+3. Checks sunrise and sunset times using Sunrise-Sunset API
+4. Sends an email alert if the ISS is visible nearby at night
+
+## Setup
+
+Install dependencies:
+
+```bash
+pip install requests
