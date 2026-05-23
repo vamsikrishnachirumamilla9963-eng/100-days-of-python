@@ -972,3 +972,44 @@ Install dependencies:
 
 ```bash
 pip install requests
+# Quizzler App 🎯
+
+A GUI-based Quiz Application built with Python, Tkinter, and the Open Trivia Database API.
+
+This project fetches real-time True/False trivia questions from an online API and displays them in an interactive graphical interface.
+
+---
+
+## Features
+
+- Real-time trivia questions using OpenTDB API
+- Interactive True and False buttons
+- Live score tracking
+- Instant answer feedback with color changes
+- Clean and responsive Tkinter GUI
+- HTML character handling for better question display
+- Object-Oriented Programming structure
+
+---
+
+## Technologies Used
+
+- Python
+- Tkinter
+- Requests
+- Open Trivia Database API
+- Object-Oriented Programming (OOP)
+
+---
+
+## Project Structure
+
+```bash
+├── main.py
+├── data.py
+├── question_model.py
+├── quiz_brain.py
+├── ui.py
+├── images
+│   ├── true.png
+│   └── false.png
